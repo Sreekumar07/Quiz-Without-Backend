@@ -7,9 +7,7 @@ Update a single `json` file to launch a new quiz every day.
 
 ## Live Demo
 
-The sample quiz demo is available at:  
-``
-
+The sample quiz demo is available at:  [Click Here](https://harishdevlab.github.io/Quiz-Without-Backend/)
 ---
 
 ## Features
@@ -143,5 +141,5 @@ The `question` field natively renders Markdown. You can format text using the fo
 
 ---
 
-### Full JSON Example
-[REFER THIS...]()
+### Full JSON Example: [REFER THIS...](https://github.com/HarishDevLab/Quiz-Without-Backend/blob/main/data/quiz.json)
+

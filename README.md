@@ -48,7 +48,7 @@ The sample quiz demo is available at:  [Click Here](https://harishdevlab.github.
   - **Bold**, *italic*, `inline code`, headings, lists, links, images.
   - **Tables**.
   - **Code blocks** with syntax highlighting.
-- See the [sample quiz]() for examples.
+- See the [sample quiz JSON](https://github.com/HarishDevLab/Quiz-Without-Backend/blob/main/data/quiz.json) for examples.
 
 ### Zero Dependencies(for now, may be included in future)
 - No frameworks, no libraries, no build tools.

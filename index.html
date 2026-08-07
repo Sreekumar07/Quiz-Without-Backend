@@ -1013,7 +1013,14 @@
             async function loadQuizData() {
                 renderLoading();
                 try {
-                    const response = await fetch(QUIZ_DATA_URL);
+
+                    // Only fetch(url) without the timestamp causes the browser to load the cached json quiz file,
+                    // which caused the browser not to update the page with the new quiz. Now with the timestamp,
+                    // fetch() thinks it fetches new url (eg: url?t=2882023, but the timestamp is unique everytime).
+                    // Adding a random timestamp to the URL forces the browser and CDNs to download a fresh copy
+                    // every single time.
+                    const response = await fetch(QUIZ_DATA_URL + '?t=' + Date.now());
+
                     if (!response.ok) throw new Error(`Failed to load quiz data (HTTP ${response.status})`);
                     const data = await response.json();
                     validateQuizData(data);

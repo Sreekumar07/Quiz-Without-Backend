@@ -1,108 +1,129 @@
 {
   "schemaVersion": "1.0",
-  "quizId": "sample-quiz-2026-08",
-  "title": "Aptitude Quiz",
-  "description": "A quick 10-question demo quiz covering reasoning, math, and general awareness. Designed to test the platform features including Markdown rendering and shuffled questions.",
-  "duration": 15,
-  "startTime": "2026-08-05T00:00:00.000Z",
-  "endTime": "2027-12-31T23:59:59.000Z",
+  "quizId": "placement-day2-quiz",
+  "title": "Placement Aptitude Quiz - Day 2",
+  "description": "Intermediate Aptitude Assessment for Placement Training",
+  "duration": 9,
+  "startTime": "2026-08-07T00:00:00.000Z",
+  "endTime": "2026-08-07T23:59:59.000Z",
   "passingMarks": 40,
   "shuffleQuestions": true,
   "shuffleOptions": true,
   "showCorrectAnswers": true,
-  "negativeMarking": 0.25,
+  "negativeMarking": 0,
   "questions": [
     {
       "id": "q1",
-      "question": "What is the output of the following Python code?\n\n```python\nprint(2 ** 3 ** 2)\n```",
+      "question": "The sum of two numbers is 45 and their difference is 9. Find the larger number.",
       "options": [
-        "64",
-        "512",
-        "81",
-        "12"
+        "18",
+        "24",
+        "27",
+        "30"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "q2",
+      "question": "A number is increased by 20% and then decreased by 20%. What is the net percentage change?",
+      "options": [
+        "0%",
+        "4% decrease",
+        "4% increase",
+        "2% decrease"
       ],
       "correct": 1
     },
     {
-      "id": "q2",
-      "question": "Which of the following is a **prime number**?",
-      "options": [
-        "21",
-        "57",
-        "91",
-        "97"
-      ],
-      "correct": 3
-    },
-    {
       "id": "q3",
-      "question": "Complete the analogy: **PEN** : **WRITE** :: **KNIFE** : ?",
+      "question": "The average of 8 numbers is 25. If one number is removed, the average becomes 24. What is the removed number?",
       "options": [
-        "Cut",
-        "Sharp",
-        "Blade",
-        "Fork"
+        "30",
+        "31",
+        "32",
+        "33"
       ],
-      "correct": 0
+      "correct": 2
     },
     {
       "id": "q4",
-      "question": "A train 100 meters long passes a pole in 5 seconds. What is its speed in km/h?",
+      "question": "A shopkeeper marks an item 25% above cost price and gives a discount of 10%. What is his profit percentage?",
       "options": [
-        "60 km/h",
-        "72 km/h",
-        "80 km/h",
-        "90 km/h"
+        "10%",
+        "12.5%",
+        "15%",
+        "20%"
       ],
       "correct": 1
     },
     {
       "id": "q5",
-      "question": "Which data structure uses **FIFO** (First In First Out) principle?",
+      "question": "Find the next term: 3, 8, 15, 24, 35, ?",
       "options": [
-        "Stack",
-        "Queue",
-        "Tree",
-        "Graph"
+        "46",
+        "48",
+        "50",
+        "52"
       ],
       "correct": 1
     },
     {
       "id": "q6",
-      "question": "Look at the table below and answer:\n\n| City | Population (millions) |\n|------|----------------------|\n| Tokyo | 37.4 |\n| Delhi | 31.0 |\n| Shanghai | 27.1 |\n\nWhich city has the **second highest** population?",
+      "question": "A train running at 72 km/h crosses a pole in 15 seconds. What is the length of the train?",
       "options": [
-        "Tokyo",
-        "Delhi",
-        "Shanghai",
-        "None of the above"
+        "250 m",
+        "300 m",
+        "350 m",
+        "400 m"
       ],
       "correct": 1
     },
     {
       "id": "q7",
-      "question": "If `x = 5` and `y = 2`, what is the value of `x ** y - y ** x`?",
+      "question": "A can complete a work in 12 days. B can complete the same work in 18 days. In how many days can they complete it together?",
       "options": [
-        "-7",
-        "7",
-        "-17",
-        "17"
-      ],
-      "correct": 0
-    },
-    {
-      "id": "q8",
-      "question": "Which planet is known as the **Red Planet**?",
-      "options": [
-        "Venus",
-        "Mars",
-        "Jupiter",
-        "Saturn"
+        "6.2",
+        "7.2",
+        "8.4",
+        "9.6"
       ],
       "correct": 1
     },
     {
+      "id": "q8",
+      "question": "Which of the following numbers is divisible by 11?",
+      "options": [
+        "143",
+        "154",
+        "165",
+        "175"
+      ],
+      "correct": 0
+    },
+    {
       "id": "q9",
-      "question": "Find the missing number in the series: 2, 6, 12, 20, 30, ?",
+      "question": "Find the missing term: B, E, J, Q, ?",
+      "options": [
+        "Z",
+        "Y",
+        "R",
+        "X"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "q10",
+      "question": "A father is three times as old as his son. After 10 years, he will be twice as old. What is the son's present age?",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "15"
+      ],
+      "correct": 1
+    }
+  ]
+}      "question": "Find the missing number in the series: 2, 6, 12, 20, 30, ?",
       "options": [
         "36",
         "40",

@@ -935,7 +935,7 @@
             function renderResultPage() {
                 if (!savedResult) { renderError('Error', 'No result data found.'); return; }
                 const result = savedResult;
-                const solutionPdfUrl = quizData.solutionPdfUrl || null;
+                const solutionPdfUrl = quizData.solutionUrl || null;
 
                 appContainer.innerHTML = `
                 <div class="card result-card" id="resultCard">

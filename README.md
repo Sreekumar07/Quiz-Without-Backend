@@ -67,8 +67,6 @@ The sample quiz demo is available at:  [Click Here](https://harishdevlab.github.
   "endTime": "2027-12-31T23:59:59.000Z",
   "passingMarks": 40,
   "shuffleQuestions": true,
-  "shuffleOptions": true,
-  "showCorrectAnswers": false,
   "negativeMarking": 0.25,
   "questions": [
     {
@@ -96,8 +94,6 @@ The sample quiz demo is available at:  [Click Here](https://harishdevlab.github.
 | `endTime` | `string` (ISO 8601) | Quiz is no longer accessible after this time. (After this, a “quiz ended” message appears.) |
 | `passingMarks` | `number` | Percentage required to pass (e.g., 40 means 40%). |
 | `shuffleQuestions` | `boolean` | If true, question order is randomised per student. |
-| `shuffleOptions` | `boolean` | If true, options order is randomised per question. |
-| `showCorrectAnswers` | `boolean` | (Reserved – currently not used, but can be implemented to show correct answers after submission.) |
 | `negativeMarking` | `number` | Penalty per wrong answer (e.g., 0.25 deducts 0.25 marks). Set to 0 for no negative marking. |
 | `questions` | `array` | Array of question objects (see details below). |
 

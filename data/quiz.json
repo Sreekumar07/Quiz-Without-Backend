@@ -8,7 +8,6 @@
   "endTime": "2026-08-07T18:29:59.000Z",
   "passingMarks": 50,
   "shuffleQuestions": true,
-  "showCorrectAnswers": true,
   "negativeMarking": 0,
   "solutionUrl": "https://example.com/solutions/aptitude-solutions.pdf",
   "questions": [

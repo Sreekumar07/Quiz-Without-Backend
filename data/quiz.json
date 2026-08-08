@@ -1,108 +1,128 @@
 {
   "schemaVersion": "1.0",
-  "quizId": "7AUG2026EXTENDED",
-  "title": "Aptitude Quiz",
-  "description": "Test your aptitude skills with this quiz covering logical reasoning, mathematics, and general knowledge.",
+  "quizId": "08AUG2026APTITUDE",
+  "title": "Placement Aptitude Quiz - Day 3",
+  "description": "Test your aptitude skills with this quiz covering logical reasoning, mathematics, and problem solving.",
   "duration": 10,
-  "startTime": "2026-08-06T18:30:00.000Z",
-  "endTime": "2056-08-07T18:29:59.000Z",
+  "startTime": "2026-08-08T00:00:00.000Z",
+  "endTime": "2026-08-08T23:59:59.000Z",
   "passingMarks": 50,
   "shuffleQuestions": true,
   "negativeMarking": 0,
   "solutionUrl": "https://example.com/solutions/aptitude-solutions.pdf",
   "questions": [
-  {
-    "id": "q1",
-    "question": "The sum of two numbers is 45 and their difference is 9. Find the larger number.",
-    "options": [
-      "18",
-      "24",
-      "27",
-      "30"
-    ],
-    "correct": 2
-  },
-  {
-    "id": "q2",
-    "question": "A number is increased by 20% and then decreased by 20%. What is the net percentage change?",
-    "options": [
-      "0%",
-      "4% decrease",
-      "4% increase",
-      "2% decrease"
-    ],
-    "correct": 1
-  },
-  {
-    "id": "q3",
-    "question": "The average of 8 numbers is 25. If one number is removed, the average becomes 24. What is the removed number?",
-    "options": [
-      "30",
-      "31",
-      "32",
-      "33"
-    ],
-    "correct": 2
-  },
-  {
-    "id": "q4",
-    "question": "A shopkeeper marks an item 25% above cost price and gives a discount of 10%. What is his profit percentage?",
-    "options": [
-      "10%",
-      "12.5%",
-      "15%",
-      "20%"
-    ],
-    "correct": 1
-  },
-  {
-    "id": "q5",
-    "question": "Find the next term: 3, 8, 15, 24, 35, ?",
-    "options": [
-      "46",
-      "48",
-      "50",
-      "52"
-    ],
-    "correct": 1
-  },
-  {
-    "id": "q6",
-    "question": "A train running at 72 km/h crosses a pole in 15 seconds. What is the length of the train?",
-    "options": [
-      "250 m",
-      "300 m",
-      "350 m",
-      "400 m"
-    ],
-    "correct": 1
-  },
-  {
-    "id": "q7",
-    "question": "A can complete a work in 12 days. B can complete the same work in 18 days. In how many days can they complete it together?",
-    "options": [
-      "6.2",
-      "7.2",
-      "8.4",
-      "9.6"
-    ],
-    "correct": 1
-  },
-  {
-    "id": "q8",
-    "question": "Which of the following numbers is divisible by 11?",
-    "options": [
-      "143",
-      "154",
-      "165",
-      "175"
-    ],
-    "correct": 0
-  },
-  {
-    "id": "q9",
-    "question": "Find the missing term: B, E, J, Q, ?",
-    "options": [
+    {
+      "id": "q1",
+      "question": "The difference between 35% of a number and 20% of the same number is 45. Find the number.",
+      "options": [
+        "250",
+        "300",
+        "350",
+        "400"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "q2",
+      "question": "The average of 9 numbers is 40. If one number 58 is removed, what is the new average?",
+      "options": [
+        "37.5",
+        "37.75",
+        "38",
+        "39"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "q3",
+      "question": "If the ratio of boys to girls is 7:5 and there are 84 boys, how many girls are there?",
+      "options": [
+        "50",
+        "60",
+        "70",
+        "75"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "q4",
+      "question": "A product is sold for ₹1320 after a 12% profit. What was its cost price?",
+      "options": [
+        "₹1178.57",
+        "₹1200",
+        "₹1250",
+        "₹1280"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "q5",
+      "question": "Find the next number: 5, 11, 19, 29, 41, ?",
+      "options": [
+        "53",
+        "55",
+        "57",
+        "59"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "q6",
+      "question": "A train 180 m long crosses a platform 220 m long in 20 seconds. Find the speed of the train.",
+      "options": [
+        "60 km/h",
+        "72 km/h",
+        "80 km/h",
+        "90 km/h"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "q7",
+      "question": "A can complete a work in 20 days and B in 30 days. Together they can complete it in:",
+      "options": [
+        "10 days",
+        "12 days",
+        "15 days",
+        "18 days"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "q8",
+      "question": "Which of the following numbers is divisible by 9?",
+      "options": [
+        "423",
+        "532",
+        "641",
+        "728"
+      ],
+      "correct": 0
+    },
+    {
+      "id": "q9",
+      "question": "Find the missing term: C, F, K, R, ?",
+      "options": [
+        "Y",
+        "Z",
+        "A",
+        "C"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "q10",
+      "question": "A father is 42 years old and his son is 14 years old. After how many years will the father be twice the age of his son?",
+      "options": [
+        "10",
+        "12",
+        "14",
+        "16"
+      ],
+      "correct": 2
+    }
+  ]
+}    "options": [
       "Z",
       "Y",
       "R",

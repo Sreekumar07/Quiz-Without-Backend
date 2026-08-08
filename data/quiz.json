@@ -1,11 +1,11 @@
 {
   "schemaVersion": "1.0",
-  "quizId": "7AUG2026",
+  "quizId": "7AUG2026EXTENDED",
   "title": "Aptitude Quiz",
   "description": "Test your aptitude skills with this quiz covering logical reasoning, mathematics, and general knowledge.",
   "duration": 10,
   "startTime": "2026-08-06T18:30:00.000Z",
-  "endTime": "2026-08-07T18:29:59.000Z",
+  "endTime": "2056-08-07T18:29:59.000Z",
   "passingMarks": 50,
   "shuffleQuestions": true,
   "negativeMarking": 0,

@@ -1,108 +1,128 @@
 {
   "schemaVersion": "1.0",
-  "quizId": "7AUG2026EXTENDED",
-  "title": "Aptitude Quiz",
-  "description": "Test your aptitude skills with this quiz covering logical reasoning, mathematics, and general knowledge.",
+  "quizId": "11AUG2026APTITUDE",
+  "title": "Placement Aptitude Quiz - Day 6",
+  "description": "Test your aptitude, logical reasoning, analytical thinking, and problem-solving skills.",
   "duration": 10,
-  "startTime": "2026-08-06T18:30:00.000Z",
-  "endTime": "2056-08-07T18:29:59.000Z",
+  "startTime": "2026-08-11T00:00:00.000Z",
+  "endTime": "2026-08-11T23:59:59.000Z",
   "passingMarks": 50,
   "shuffleQuestions": true,
   "negativeMarking": 0,
-  "solutionUrl": "https://example.com/solutions/aptitude-solutions.pdf",
+  "solutionUrl": "https://example.com/solutions/day6-solutions.pdf",
   "questions": [
-  {
-    "id": "q1",
-    "question": "The sum of two numbers is 45 and their difference is 9. Find the larger number.",
-    "options": [
-      "18",
-      "24",
-      "27",
-      "30"
-    ],
-    "correct": 2
-  },
-  {
-    "id": "q2",
-    "question": "A number is increased by 20% and then decreased by 20%. What is the net percentage change?",
-    "options": [
-      "0%",
-      "4% decrease",
-      "4% increase",
-      "2% decrease"
-    ],
-    "correct": 1
-  },
-  {
-    "id": "q3",
-    "question": "The average of 8 numbers is 25. If one number is removed, the average becomes 24. What is the removed number?",
-    "options": [
-      "30",
-      "31",
-      "32",
-      "33"
-    ],
-    "correct": 2
-  },
-  {
-    "id": "q4",
-    "question": "A shopkeeper marks an item 25% above cost price and gives a discount of 10%. What is his profit percentage?",
-    "options": [
-      "10%",
-      "12.5%",
-      "15%",
-      "20%"
-    ],
-    "correct": 1
-  },
-  {
-    "id": "q5",
-    "question": "Find the next term: 3, 8, 15, 24, 35, ?",
-    "options": [
-      "46",
-      "48",
-      "50",
-      "52"
-    ],
-    "correct": 1
-  },
-  {
-    "id": "q6",
-    "question": "A train running at 72 km/h crosses a pole in 15 seconds. What is the length of the train?",
-    "options": [
-      "250 m",
-      "300 m",
-      "350 m",
-      "400 m"
-    ],
-    "correct": 1
-  },
-  {
-    "id": "q7",
-    "question": "A can complete a work in 12 days. B can complete the same work in 18 days. In how many days can they complete it together?",
-    "options": [
-      "6.2",
-      "7.2",
-      "8.4",
-      "9.6"
-    ],
-    "correct": 1
-  },
-  {
-    "id": "q8",
-    "question": "Which of the following numbers is divisible by 11?",
-    "options": [
-      "143",
-      "154",
-      "165",
-      "175"
-    ],
-    "correct": 0
-  },
-  {
-    "id": "q9",
-    "question": "Find the missing term: B, E, J, Q, ?",
-    "options": [
+    {
+      "id": "q1",
+      "question": "If 15 workers can complete a task in 20 days, how many days will 25 workers take to complete the same task?",
+      "options": [
+        "10",
+        "12",
+        "15",
+        "18"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "q2",
+      "question": "Find the next number in the series: 7, 14, 28, 56, ?",
+      "options": [
+        "84",
+        "98",
+        "112",
+        "120"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "q3",
+      "question": "A train travels 240 km in 4 hours. What is its average speed?",
+      "options": [
+        "50 km/h",
+        "60 km/h",
+        "70 km/h",
+        "80 km/h"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "q4",
+      "question": "Which number is the odd one out?",
+      "options": [
+        "16",
+        "25",
+        "36",
+        "45"
+      ],
+      "correct": 3
+    },
+    {
+      "id": "q5",
+      "question": "If all roses are flowers and some flowers are red, which statement is definitely true?",
+      "options": [
+        "All roses are red",
+        "Some roses are flowers",
+        "All flowers are roses",
+        "No rose is red"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "q6",
+      "question": "A shopkeeper buys an item for ₹800 and sells it for ₹920. Find the profit percentage.",
+      "options": [
+        "10%",
+        "12%",
+        "15%",
+        "20%"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "q7",
+      "question": "Find the missing term: D, H, L, P, ?",
+      "options": [
+        "R",
+        "S",
+        "T",
+        "U"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "q8",
+      "question": "A clock shows 3:15. What is the angle between the hour and minute hands?",
+      "options": [
+        "0°",
+        "7.5°",
+        "15°",
+        "22.5°"
+      ],
+      "correct": 1
+    },
+    {
+      "id": "q9",
+      "question": "A father is 30 years older than his son. If the son's age is 12 years, what will be the father's age after 8 years?",
+      "options": [
+        "42",
+        "48",
+        "50",
+        "52"
+      ],
+      "correct": 2
+    },
+    {
+      "id": "q10",
+      "question": "A basket contains 5 red, 4 blue, and 3 green balls. What is the minimum number of balls to pick to guarantee at least one ball of each color?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "correct": 1
+    }
+  ]
+}    "options": [
       "Z",
       "Y",
       "R",
